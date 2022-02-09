@@ -6,7 +6,7 @@ table, th, td {
     border:1px solid black;
   } */
   
-footer {
+.footer {
     position: fixed;
     left: 10px;
     bottom: 5px;
