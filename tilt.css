@@ -5,3 +5,11 @@
 table, th, td {
     border:1px solid black;
   } */
+  
+footer {
+    position: fixed;
+    left: 10px;
+    bottom: 5px;
+    right: 10px; 
+    width: 95%;
+}
