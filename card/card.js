@@ -1,3 +1,4 @@
+// https://stackoverflow.com/questions/8117761/how-can-i-make-an-iframe-resizable 
 $(function() {
     $(".resizable").resizable({
       start: function(event, ui) {
