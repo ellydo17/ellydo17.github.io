@@ -25,7 +25,7 @@ iframe{
    width: 800px;
   }
 
-.condensation-dij {
+.condensation-dij{
   display: inline-block;
 }
 
@@ -34,12 +34,12 @@ iframe{
   height: 500px;
 } 
 
-#table-convert {
+#table-convert{
   width: 480px;
   height: 500px;
 }
 
-#shortest-path  {
+#shortest-path{
   width: 2000px;
   height: 400px;
 }
