@@ -5,6 +5,7 @@
     <title>Welcome to Tilt!</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="card.css">
+    <script src="card.js"></script>
   </head>
 
 <body>
@@ -15,17 +16,22 @@
 
 <div class="table-node">
   <div class = "container-01">
-    <div id = "table-node01">
-      <!-- <iframe src="../card-whole-node/card%20%2336.html" title="card 36 whole node">
+    <div class = "table-node01">
+      <!-- <iframe src="../card-whole-node/card%20%231.html" title="card 1 whole node">
       </iframe> -->
-      <iframe src="../card-number/card%20%2336.html" title="card 36 number">
+      <div class="resizable">
+      <iframe src="../card-number/card%20%2336.html" title="card 36 number"></iframe>
+      </div>
       </iframe>
     </div>
-    <object width="600" height="800" data="../table-number/table 36.txt"></object>
+    <object id = "table-convert" data="../table-number/table 36.txt"></object>
+    <object id = "shortest-path" data="../table-dijkstra/table shortest path 36.txt"></object>
   </div>
 
   <div class = "container-02">
-    <img src="../condensation/condensation 36.png" alt="card 361 condensation" alt="card 36 condensation">
-    <object width="1000" height="800" data="../table-condensation/table condensation 36.txt"></object>
+    <img src="../condensation/condensation 36.png" alt="card 36 condensation">
+    <div class = "condensation-dij">
+      <object id = "table-condensation" data="../table-condensation/table condensation 36.txt"></object>
+    </div>
   </div>
 </div>
