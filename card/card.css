@@ -31,8 +31,13 @@ iframe{
 
 #table-condensation{
   width: 2000px;
-  height: 200px;
+  height: 500px;
 } 
+
+#table-convert {
+  width: 400px;
+  height: 500px;
+}
 
 #shortest-path  {
   width: 2000px;
