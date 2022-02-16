@@ -10,7 +10,7 @@ iframe{
   }
 
  .container-01{
-    display: inline-flex;
+    display: flex;
  }
 
  .container-02{
