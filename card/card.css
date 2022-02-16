@@ -29,7 +29,12 @@ iframe{
   display: inline-block;
 }
 
-#table-condensation, #shortest-path  {
+#table-condensation{
+  width: 2000px;
+  height: 200px;
+} 
+
+#shortest-path  {
   width: 2000px;
   height: 200px;
 }
